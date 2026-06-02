@@ -1,4 +1,6 @@
 import streamlit as st
+# 1. إعدادات الصفحة العامة
+st.set_page_config(page_title="دعوة حفل زفاف", page_icon="💍", layout="centered")
 st.markdown("""
     <style>
     /* إخفاء الإرشادات الإنجليزية فقط دون التأثير على المربعات */
@@ -15,9 +17,6 @@ import base64
 
 # اسم الملف الذي ستُحفظ فيه أسماء الحاضرين تلقائياً
 DATA_FILE = "wedding_responses.csv"
-
-# 1. إعدادات الصفحة العامة
-st.set_page_config(page_title="دعوة حفل زفاف", page_icon="💍", layout="centered")
 
 # دالة لتحويل الصورة المحلية إلى كود يقرأه المتصفح كخلفية مباشرة
 def get_base64_image(image_path):
