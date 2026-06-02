@@ -86,9 +86,8 @@ st.markdown(f"""
 
 # 3. واجهة الدعوة العلوية (داخل الكارت الموحد)
 st.title("💍 دَعْوَةُ حَفْلِ زِفَافٍ 💍")
-
-st.markdown("<p style='font-style: italic; color: #555555; font-size: 18px; font-weight: bold;'>\"وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً\"</p>", unsafe_allow_html=True)
-
+st.markdown("<h1 style='text-align: center; color: #8A6D3B; font-family: Cairo, sans-serif; font-weight: bold;'>💍 دَعْوَةُ حَفْلِ زِفَافٍ 💍</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: #5c4a28; font-family: Cairo, sans-serif; font-style: italic;'>\"وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً\"</h3>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: #8A6D3B; font-family: Cairo, sans-serif; font-weight: bold;'>💖 احمد & فاطمة 💖</h2>", unsafe_allow_html=True)
 
 st.markdown("<hr style='border-top: 1px solid #dfc48c;'>", unsafe_allow_html=True)
