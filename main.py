@@ -1,4 +1,18 @@
 import streamlit as st
+st.markdown("""
+    <style>
+    /* إخفاء جملة Press Enter الإنجليزية تماماً من التطبيق */
+    div[data-testid="InputInstructions"] {
+        display: none !important;
+    }
+    caption {
+        display: none !important;
+    }
+    .st-ae {
+        display: none !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 import pandas as pd
 import os
 import base64
