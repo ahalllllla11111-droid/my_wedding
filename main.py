@@ -3,6 +3,34 @@ import streamlit as st
 st.set_page_config(page_title="دعوة حفل زفاف", page_icon="💍", layout="centered")
 st.markdown("""
     <style>
+    /* 1. تضييق الفراغ في أعلى وأسفل الصفحة */
+    .stMainBlockContainer {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    
+    /* 2. تقليل المسافات الفاصلة بين كل عنصر (صورة، نص، مربع) والعنصر الذي تحته */
+    div[element-type="element-container"] {
+        margin-bottom: 0.3rem !important;
+    }
+    
+    /* 3. تقريب النصوص والعناوين من بعضها */
+    h1, h2, h3, p {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    /* إخفاء الإرشادات الإنجليزية السابقة */
+    div[data-testid="InputInstructions"] {
+        visibility: hidden !important;
+        height: 0px !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+st.markdown("""
+    <style>
     /* إخفاء الإرشادات الإنجليزية فقط دون التأثير على المربعات */
     div[data-testid="InputInstructions"] {
         visibility: hidden !important;
