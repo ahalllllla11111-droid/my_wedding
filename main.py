@@ -1,15 +1,11 @@
 import streamlit as st
 st.markdown("""
     <style>
-    /* إخفاء جملة Press Enter الإنجليزية تماماً من التطبيق */
+    /* إخفاء الإرشادات الإنجليزية فقط دون التأثير على المربعات */
     div[data-testid="InputInstructions"] {
-        display: none !important;
-    }
-    caption {
-        display: none !important;
-    }
-    .st-ae {
-        display: none !important;
+        visibility: hidden !important;
+        height: 0px !important;
+        overflow: hidden !important;
     }
     </style>
 """, unsafe_allow_html=True)
